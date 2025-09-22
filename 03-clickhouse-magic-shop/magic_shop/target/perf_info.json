@@ -1,0 +1,56 @@
+{
+    "path_count": 133,
+    "parsed_path_count": 133,
+    "static_analysis_path_count": 5,
+    "static_analysis_parsed_path_count": 4,
+    "is_partial_parse_enabled": false,
+    "is_static_analysis_enabled": true,
+    "read_files_elapsed": 0.00829241600149544,
+    "load_macros_elapsed": 0.274804792003124,
+    "parse_project_elapsed": 0.26023470800282666,
+    "patch_sources_elapsed": 0.0073082500020973384,
+    "process_manifest_elapsed": 0.013291707997268531,
+    "load_all_elapsed": 0.5896071669994853,
+    "projects": [
+        {
+            "project_name": "magic_shop",
+            "elapsed": 0.2561058740102453,
+            "parsers": [
+                {
+                    "parser": "model",
+                    "elapsed": 0.11482204200001433,
+                    "parsed_path_count": 5
+                },
+                {
+                    "parser": "seed",
+                    "elapsed": 0.04831670800194843,
+                    "parsed_path_count": 3
+                },
+                {
+                    "parser": "test",
+                    "elapsed": 0.09150545900047291,
+                    "parsed_path_count": 2
+                }
+            ],
+            "parsed_path_count": 10
+        },
+        {
+            "project_name": "dbt_clickhouse",
+            "elapsed": 0.002894875993661117,
+            "parsers": [],
+            "parsed_path_count": 0
+        },
+        {
+            "project_name": "dbt",
+            "elapsed": 0.0011632089954218827,
+            "parsers": [
+                {
+                    "parser": "doc",
+                    "elapsed": 0.00011020899546565488,
+                    "parsed_path_count": 1
+                }
+            ],
+            "parsed_path_count": 1
+        }
+    ]
+}

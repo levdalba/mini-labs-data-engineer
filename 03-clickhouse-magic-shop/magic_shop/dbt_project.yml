@@ -1,0 +1,13 @@
+name: 'magic_shop'
+version: '1.0'
+config-version: 2
+
+profile: 'magic_shop'
+model-paths: ['models']
+seed-paths: ['seeds']
+
+seeds:
+  +database: raw
+  +quote_columns: true
+  +column_types:
+    paid_galleons: float
